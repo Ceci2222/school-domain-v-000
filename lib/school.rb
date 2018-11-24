@@ -12,6 +12,7 @@ class School
     @grade = grade
     roster[grade] = []
     roster[grade] << student
+    roster => {grade =>[student]}
   end
   
   def grade(grade)
