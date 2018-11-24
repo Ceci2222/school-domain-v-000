@@ -13,7 +13,8 @@ class School
     roster[grade]
   end
   
-  def school.sort 
+  def school
+    roster.sort
   end
   
 end
